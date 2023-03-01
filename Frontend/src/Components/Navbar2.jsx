@@ -3,7 +3,7 @@ import React from 'react'
 import job from '../Resources/job.png'
 import "./Navbar.css"
 
-const Navbar = () => {
+const Navbar2 = () => {
   return (
     <Box id="nav" w={"100%"} h={"60px"}  boxSizing={"border-box"} color={"white"} fontSize={"xl"}>
         <Flex justifyContent={"space-between"}>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <Flex >
             <Center>
            
-            <Text  mr={"80px"} fontSize={"xl"} fontWeight={"bold"} >Post</Text>
+            <Text  mr={"80px"} fontSize={"xl"} fontWeight={"bold"} >Get</Text>
             
             </Center>
             <Center>
@@ -60,4 +60,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar2
